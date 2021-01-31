@@ -1,0 +1,19 @@
+name: update
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '35 * * * *'
+jobs:
+  update-releases:
+    name: update releases.json
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: script/update-releases
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: update releases.json
+          title: releases.json updates
+          branch: updates
+          delete-branch: false
