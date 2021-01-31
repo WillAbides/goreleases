@@ -13,6 +13,15 @@
     "kind": "archive"
    },
    {
+    "filename": "go1.16rc1.windows-amd64.msi",
+    "os": "windows",
+    "arch": "amd64",
+    "version": "go1.16rc1",
+    "sha256": "b71786a3b823eb3aefa57cda794c962679f9887a8ae0e5b4e2cbe55546f400fd",
+    "size": 126918656,
+    "kind": "installer"
+   },
+   {
     "filename": "go1.16rc1.windows-386.zip",
     "os": "windows",
     "arch": "386",
