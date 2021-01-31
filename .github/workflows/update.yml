@@ -23,7 +23,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_author: Workflow <noreply@github.com>
-          commit-message: update releases.json
+          commit_message: update releases.json
       - name: Create Pull Request
         if: ${{ steps.validate.outputs.validated == 'false' }}
         id: create-pull-request
