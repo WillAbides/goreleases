@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+CDPATH="" cd -- "$(dirname -- "$(dirname -- "$0")")"
+
+mkdir -p ./tmp
+script/goreleases > ./tmp/releases.json
+mv ./tmp/releases.json ./releases.json

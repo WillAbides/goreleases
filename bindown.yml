@@ -10,11 +10,22 @@ dependencies:
     template: origin#golangci-lint
     vars:
       version: 1.28.2
+  goreleases:
+    template: goversions#goreleases
   shellcheck:
     template: origin#shellcheck
     vars:
       version: 0.7.1
 templates:
+  goversions#goreleases:
+    url: https://github.com/WillAbides/goversions/releases/download/v{{.version}}/goreleases_{{.version}}_{{.os}}_{{.arch}}.tar.gz
+    vars:
+      version: 0.1.0
+    required_vars:
+    - version
+    systems:
+    - darwin/amd64
+    - linux/amd64
   origin#gobin:
     url: https://github.com/myitcv/gobin/releases/download/v{{.version}}/{{.os}}-{{.arch}}
     archive_path: '{{.os}}-{{.arch}}'
@@ -90,8 +101,11 @@ templates:
     - linux/amd64
     - windows/amd64
 template_sources:
+  goversions: https://github.com/WillAbides/goversions/releases/latest/download/bindown-templates.yml
   origin: https://raw.githubusercontent.com/WillAbides/bindown-templates/master/bindown.yml
 url_checksums:
+  https://github.com/WillAbides/goversions/releases/download/v0.1.0/goreleases_0.1.0_darwin_amd64.tar.gz: c21ceca3d72cfd03ad2d0c99458958e6d8d7431f632ccf591bbc8b11803700ec
+  https://github.com/WillAbides/goversions/releases/download/v0.1.0/goreleases_0.1.0_linux_amd64.tar.gz: 5d07fcd47db988390de3686259c927fc545146801397918372472fec9ea51f21
   https://github.com/golangci/golangci-lint/releases/download/v1.28.2/golangci-lint-1.28.2-darwin-amd64.tar.gz: 6e6952a4d72906f6265c379743f274b7609a289cc9cbb19bf6ff94e6f8f00daf
   https://github.com/golangci/golangci-lint/releases/download/v1.28.2/golangci-lint-1.28.2-linux-amd64.tar.gz: c893b07dd7d2c8e13b6380dd52781bb6732f7f541d90da2dc941be5f7e8be6fb
   https://github.com/koalaman/shellcheck/releases/download/v0.7.1/shellcheck-v0.7.1.darwin.x86_64.tar.xz: b080c3b659f7286e27004aa33759664d91e15ef2498ac709a452445d47e3ac23
