@@ -1,3 +1,11 @@
 # goreleases
 
-[![ci](https://github.com/WillAbides/goreleases/workflows/ci/badge.svg?branch=main&event=push)](https://github.com/WillAbides/goreleases/actions?query=workflow%3Aci+branch%3Amain+event%3Apush)
+This is a data repository that keeps an updated list of all go releases in `releases.json`. The format is the same that 
+you will find at `https://golang.org/dl/?mode=json&include=all`. The main difference is this version contains all past 
+prereleases where golang.org filters them out.
+
+This repo also filters out an errant `go1` release that golang.org presents and has file sizes for some older files that
+are missing sizes on golang.org.
+
+This repo is updated by a workflow that runs hourly. When a new version of go is released, this repo should be updated 
+within the hour.
