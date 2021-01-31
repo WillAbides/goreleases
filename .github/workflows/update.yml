@@ -10,7 +10,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: script/update-releases
+      - name: script/validate-releases
+        id: validate
+        run: |
+          if ./script/validate-releases; then
+            echo "::set-output name=validated::true"
+          else
+            echo "::set-output name=validated::false"
+          fi
+      - name: update branch
+        if: ${{ steps.validate.outputs.validated == 'true' }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_author: Workflow <noreply@github.com>
+          commit-message: update releases.json
       - name: Create Pull Request
+        if: ${{ steps.validate.outputs.validated == 'false' }}
         id: create-pull-request
         uses: peter-evans/create-pull-request@v3
         with:
@@ -20,13 +35,3 @@ jobs:
           committer: Workflow <noreply@github.com>
           author: Workflow <noreply@github.com>
           delete-branch: true
-      - name: set latest
-        run: |
-          created_pr='${{ steps.create-pull-request.outputs.pull-request-number }}'
-          git switch latest 2>/dev/null || git switch -c latest
-          git fetch origin
-          git reset --hard origin/main
-          if [ -n "$created_pr" ]; then
-            git reset --hard origin/updates
-          fi
-          git push -f -u origin latest
