@@ -16,4 +16,6 @@ jobs:
           commit-message: update releases.json
           title: releases.json updates
           branch: updates
+          committer: Workflow <noreply@github.com>
+          author: Workflow <noreply@github.com>
           delete-branch: false
