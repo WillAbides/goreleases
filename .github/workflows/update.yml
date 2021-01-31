@@ -22,6 +22,11 @@ jobs:
           delete-branch: false
       - name: set latest
         run: |
-          echo PR number: ${{ steps.create-pull-request.outputs.pull-request-number}}
-           # git status
-           # git switch  2>/dev/null || git switch -c foo
+          created_pr='${{ steps.create-pull-request.outputs.pull-request-number }}'
+          git switch latest 2>/dev/null || git switch -c latest
+          git fetch origin
+          git reset --hard origin/main
+          if [ -n "$created_pr" ]; then
+            git reset --hard origin/updates
+          fi
+          git push -f -u origin latest
