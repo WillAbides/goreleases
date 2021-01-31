@@ -4,6 +4,8 @@ set -e
 
 CDPATH="" cd -- "$(dirname -- "$(dirname -- "$0")")"
 
+script/bindown install goreleases >/dev/null
+
 mkdir -p ./tmp
-script/goreleases > ./tmp/releases.json
+bin/goreleases > ./tmp/releases.json
 mv ./tmp/releases.json ./releases.json
