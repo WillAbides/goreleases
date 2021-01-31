@@ -4,6 +4,15 @@
   "stable": false,
   "files": [
    {
+    "filename": "go1.16rc1.windows-amd64.zip",
+    "os": "windows",
+    "arch": "amd64",
+    "version": "go1.16rc1",
+    "sha256": "ff765c31cf321b431f9a11ec42e61d42ec87d56333c847f5a87d30e01aaed3df",
+    "size": 146872278,
+    "kind": "archive"
+   },
+   {
     "filename": "go1.16rc1.windows-amd64.msi",
     "os": "windows",
     "arch": "amd64",
