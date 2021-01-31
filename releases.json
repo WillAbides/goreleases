@@ -167,7 +167,6 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.16beta1",
-    "sha256": "f06e2d7f300843473527e8fdd2d496aef5ffa6507ade0ac1141934e5c6ca7d63",
     "size": 146528007,
     "kind": "archive"
    },
