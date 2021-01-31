@@ -19,7 +19,7 @@ jobs:
           branch: updates
           committer: Workflow <noreply@github.com>
           author: Workflow <noreply@github.com>
-          delete-branch: false
+          delete-branch: true
       - name: set latest
         run: |
           created_pr='${{ steps.create-pull-request.outputs.pull-request-number }}'
