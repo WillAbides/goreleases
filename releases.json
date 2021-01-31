@@ -181,6 +181,15 @@
     "kind": "installer"
    },
    {
+    "filename": "go1.16beta1.windows-386.zip",
+    "os": "windows",
+    "arch": "386",
+    "version": "go1.16beta1",
+    "sha256": "c67bf5c1524925c109428c28fb51147c1c7b165d9d25aef64e4677afff36c34f",
+    "size": 120514404,
+    "kind": "archive"
+   },
+   {
     "filename": "go1.16beta1.windows-386.msi",
     "os": "windows",
     "arch": "386",
