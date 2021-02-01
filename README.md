@@ -8,5 +8,8 @@ prereleases where golang.org filters them out.
 This repo also filters out an errant `go1` release that golang.org presents and has file sizes for some older files that
 are missing sizes on golang.org.
 
+There is also a plain text list of released versions available at
+[versions.txt](https://raw.githubusercontent.com/WillAbides/goreleases/main/versions.txt).
+
 This repo is updated by a workflow that runs hourly. When a new version of go is released, this repo should be updated 
 within the hour.

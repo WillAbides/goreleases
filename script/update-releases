@@ -7,3 +7,4 @@ CDPATH="" cd -- "$(dirname -- "$(dirname -- "$0")")"
 mkdir -p ./tmp
 script/goreleases > ./tmp/releases.json
 mv ./tmp/releases.json ./releases.json
+jq -r '.[].version' releases.json > versions.txt
