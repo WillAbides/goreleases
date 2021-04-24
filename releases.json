@@ -21731,7 +21731,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "0ba3ec69473a90528365ef5626b5ff892f52ab2709b0ff0a777a81f5a6f4f251",
     "size": 91458374,
     "kind": "archive"
    },
@@ -21740,7 +21740,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "7b577bd9f1b08794892fd86b6c20e00df73814097435d878c15a637a51573b84",
     "size": 74498048,
     "kind": "installer"
    },
@@ -21749,7 +21749,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "7ecbd3c72a996e6d7f81a3c621beab30a25edb134048e0694cbd520e10eb104e",
     "size": 77843859,
     "kind": "archive"
    },
@@ -21758,7 +21758,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "4d4ba0b54421a6a6197cb48ef15c3e64089c355864fe24a4961ce55ecd42cc16",
     "size": 64135168,
     "kind": "installer"
    },
@@ -21767,7 +21767,7 @@
     "os": "",
     "arch": "",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "92914a23cde7e34e1d017175d785e5850fbb28f323a145028e2e26053ef1a598",
     "size": 12602910,
     "kind": "source"
    },
@@ -21776,7 +21776,7 @@
     "os": "linux",
     "arch": "armv6l",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "cadcb5530e9a68d5ede1ab5115d985c829344eae7d04dce8e9840423536cef4f",
     "size": 70703688,
     "kind": "archive"
    },
@@ -21785,7 +21785,7 @@
     "os": "linux",
     "arch": "amd64",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "9c19fa0fe32ee9bff79123d47147a5fd15fec451806bf5644a01173a86a8a4b9",
     "size": 84757980,
     "kind": "archive"
    },
@@ -21794,7 +21794,7 @@
     "os": "linux",
     "arch": "386",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "e3bcdefc942883137f68230e67b69046003d5a18064bbe6c8944f3f3b3e6b6fc",
     "size": 71961115,
     "kind": "archive"
    },
@@ -21803,7 +21803,7 @@
     "os": "freebsd",
     "arch": "amd64",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "98b1b7cef91c07ce2edcc755ca7e3aefaf705cfbaa4cc8a9a8ed7a6860d9d9e8",
     "size": 84803852,
     "kind": "archive"
    },
@@ -21812,7 +21812,7 @@
     "os": "freebsd",
     "arch": "386",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "178661226760d48b99bd4d2df0b2859b5a92bc039d1e689925edf277f380f692",
     "size": 72000533,
     "kind": "archive"
    },
@@ -21821,7 +21821,7 @@
     "os": "darwin",
     "arch": "amd64",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "e6458d5ef2245085210b0813dc91f98ba4c93319bd9be7b1baf5844fd96dab5e",
     "size": 84646105,
     "kind": "archive"
    },
@@ -21830,7 +21830,7 @@
     "os": "darwin",
     "arch": "amd64",
     "version": "go1.6rc2",
-    "sha256": "",
+    "sha256": "33ce64510ea0962e86d48b80e720d4b7b6a11a1ee683b14cc8a4cee22c46558b",
     "size": 84731537,
     "kind": "installer"
    }
@@ -21845,7 +21845,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "30e4826e44b0875ceec415b0119e923f21fc9bdb7062ebfa8de33e8d7c1746e5",
     "size": 91444831,
     "kind": "archive"
    },
@@ -21854,7 +21854,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "7591a653d59a4fdda4625df6727dda8be7907f42458ecd982eababbecf0c6e59",
     "size": 74485760,
     "kind": "installer"
    },
@@ -21863,7 +21863,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "a745189d2e6bc79153cd368e040d998513f597e0e3a7a495844dd7d00378be8b",
     "size": 77832913,
     "kind": "archive"
    },
@@ -21872,7 +21872,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "8d74ef6ff3538bd603b46fb462e6ef337dafbb793a908bd0e71290913624e186",
     "size": 64110592,
     "kind": "installer"
    },
@@ -21881,7 +21881,7 @@
     "os": "",
     "arch": "",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "2d1a6756f24227dcee955add4af7d194eb4a8c3656b2c4ce778994e21a533a83",
     "size": 12597286,
     "kind": "source"
    },
@@ -21890,7 +21890,7 @@
     "os": "linux",
     "arch": "armv6l",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "4340efa4836a7ddfc61d00e396e0f496a5ca5cf8bc598dc3b5f50707e6107f59",
     "size": 70699278,
     "kind": "archive"
    },
@@ -21899,7 +21899,7 @@
     "os": "linux",
     "arch": "amd64",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "6a8aeab9548faf933a66dafeb809bd8623c5bba1ca9626c2f28ef619b5723218",
     "size": 84736060,
     "kind": "archive"
    },
@@ -21908,7 +21908,7 @@
     "os": "linux",
     "arch": "386",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "462de63b0b84817eadf7589522a5c789f2ddb4a136a30daaa6de8459a9d1c857",
     "size": 71949934,
     "kind": "archive"
    },
@@ -21917,7 +21917,7 @@
     "os": "freebsd",
     "arch": "amd64",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "773b5a6cf938d723712024882041e489a921e7c8c7dc9e5d6b203e7a28a05146",
     "size": 84783936,
     "kind": "archive"
    },
@@ -21926,7 +21926,7 @@
     "os": "freebsd",
     "arch": "386",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "46e1bdd354c65a9efc25b1f450209f9602ba82e206de9d7d3b100a180985e527",
     "size": 71984120,
     "kind": "archive"
    },
@@ -21935,7 +21935,7 @@
     "os": "darwin",
     "arch": "amd64",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "64e892f8a6b480050c6d95600b131dc03987c27eed91be6e7ee9931267d8dc89",
     "size": 84636922,
     "kind": "archive"
    },
@@ -21944,7 +21944,7 @@
     "os": "darwin",
     "arch": "amd64",
     "version": "go1.6rc1",
-    "sha256": "",
+    "sha256": "b863db2c2a5646eaa6a1b97da711383f1a6b774090613b53d0193db7792d402a",
     "size": 84723339,
     "kind": "installer"
    }
@@ -21959,7 +21959,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "e4e20af2171a77c1812ddc6fa00296e73460fb92b1c89660ce2109cdfad589d6",
     "size": 92575989,
     "kind": "archive"
    },
@@ -21968,7 +21968,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "a5d1e267427c67eae786a21ee6aa1d18343e2454428f815dd0de4a202c71f7a8",
     "size": 75448320,
     "kind": "installer"
    },
@@ -21977,7 +21977,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "2ed31dbac0133d97705a71f1e42e0b40ff176ec03f8ab607b5ba71955ecc9e7d",
     "size": 78919759,
     "kind": "archive"
    },
@@ -21986,7 +21986,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "3751332ccd114935acfb5b9fe8b040e637b267984fa1ce61c1e5e331299b7385",
     "size": 65007616,
     "kind": "installer"
    },
@@ -21995,7 +21995,7 @@
     "os": "",
     "arch": "",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "8b23d15a3edf1d154ceea5e9ca6370fc60e7f57fb1c28aa8a44c40f8f3167c6d",
     "size": 12538927,
     "kind": "source"
    },
@@ -22004,7 +22004,7 @@
     "os": "linux",
     "arch": "armv6l",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "269671775d2d4e8d929be595d9c02367962b7edb942aa344f8a8a310dd408d56",
     "size": 71732610,
     "kind": "archive"
    },
@@ -22013,7 +22013,7 @@
     "os": "linux",
     "arch": "amd64",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "7ddf9797c7baaac2c16eed1a8d42f9a446223301c7dc8771ea805f211828e6a5",
     "size": 85859620,
     "kind": "archive"
    },
@@ -22022,7 +22022,7 @@
     "os": "linux",
     "arch": "386",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "dd6a6a5ae1d130608e082d274c775819e7a3c3a9e34b982619f0281c41f25cf9",
     "size": 73002970,
     "kind": "archive"
    },
@@ -22031,7 +22031,7 @@
     "os": "freebsd",
     "arch": "amd64",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "9a3149901565578f6d5a406101b0a50567c9818e631231414cc720d9184dd0d4",
     "size": 85865241,
     "kind": "archive"
    },
@@ -22040,7 +22040,7 @@
     "os": "freebsd",
     "arch": "386",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "b7fa31d39f879516aac359860a0ef4127832cd63bb4394a566059faa393472bb",
     "size": 73042092,
     "kind": "archive"
    },
@@ -22049,7 +22049,7 @@
     "os": "darwin",
     "arch": "amd64",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "bf0a4348586a0b55df6bd99d1ee3b3a37273d0bc483a7c44169dcf13b61bc46b",
     "size": 85740488,
     "kind": "archive"
    },
@@ -22058,7 +22058,7 @@
     "os": "darwin",
     "arch": "amd64",
     "version": "go1.6beta2",
-    "sha256": "",
+    "sha256": "df875fc61f6b40677eeaf160768a3c8cd74e0ae5cb6db269a008a7a584f87b1a",
     "size": 85812882,
     "kind": "installer"
    }
