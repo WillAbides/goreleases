@@ -954,6 +954,21 @@
   ]
  },
  {
+  "version": "go1.15.12",
+  "stable": true,
+  "files": [
+   {
+    "filename": "go1.15.12.freebsd-386.tar.gz",
+    "os": "freebsd",
+    "arch": "386",
+    "version": "go1.15.12",
+    "sha256": "",
+    "size": 100275394,
+    "kind": "archive"
+   }
+  ]
+ },
+ {
   "version": "go1.15.11",
   "stable": true,
   "files": [
