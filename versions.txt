@@ -1,3 +1,4 @@
+go1.18beta2
 go1.18beta1
 go1.17.6
 go1.17.5
