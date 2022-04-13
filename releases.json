@@ -137,6 +137,42 @@
     "sha256": "b9a9063d4265d8ccc046c9b314194d6eadc47e56d0d637db81e98e68aad45035",
     "size": 112624090,
     "kind": "archive"
+   },
+   {
+    "filename": "go1.18.1.darwin-arm64.tar.gz",
+    "os": "darwin",
+    "arch": "arm64",
+    "version": "go1.18.1",
+    "sha256": "6d5641a06edba8cd6d425fb0adad06bad80e2afe0fa91b4aa0e5aed1bc78f58e",
+    "size": 137930879,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.18.1.darwin-arm64.pkg",
+    "os": "darwin",
+    "arch": "arm64",
+    "version": "go1.18.1",
+    "sha256": "03eeaf2e0542624b8f49ee370175c2dd767ff26cad11dc64ef2f19039308d423",
+    "size": 138362340,
+    "kind": "installer"
+   },
+   {
+    "filename": "go1.18.1.darwin-amd64.tar.gz",
+    "os": "darwin",
+    "arch": "amd64",
+    "version": "go1.18.1",
+    "sha256": "3703e9a0db1000f18c0c7b524f3d378aac71219b4715a6a4c5683eb639f41a4d",
+    "size": 143707786,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.18.1.darwin-amd64.pkg",
+    "os": "darwin",
+    "arch": "amd64",
+    "version": "go1.18.1",
+    "sha256": "63e5035312a9906c98032d9c73d036b6ce54f8632b194228bd08fe3b9fe4ab01",
+    "size": 144188848,
+    "kind": "installer"
    }
   ]
  },
