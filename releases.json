@@ -1256,7 +1256,7 @@
     "os": "windows",
     "arch": "arm64",
     "version": "go1.18.8",
-    "sha256": "eb8a27e65562ce2e360345e6e32f5950de5a85fcd4d93cabd5992ab328c1ead1",
+    "sha256": "1ea9ec7b49e02e161f69f046cc30b341456dfdf7cf36bdca5a93bede0da49f4d",
     "size": 105730048,
     "kind": "installer"
    },
@@ -1274,7 +1274,7 @@
     "os": "windows",
     "arch": "amd64",
     "version": "go1.18.8",
-    "sha256": "caeb81bf04d72b1a39c01df9f7702c59250798f6365ec15d67849782b3f0662e",
+    "sha256": "6d38668862bf9772c0c1c1e0f26aa5dedea9825b33f763b81ccc4aa63df2cef9",
     "size": 134823936,
     "kind": "installer"
    },
@@ -1292,7 +1292,7 @@
     "os": "windows",
     "arch": "386",
     "version": "go1.18.8",
-    "sha256": "3864f740e5174119fb01e15b8c258127a2ce55e4191a10f135c89ad4c9fffee4",
+    "sha256": "780bbf3009088af1e9852d7c3d4d2acfab84a823251d8103f6e2ebf6d717625e",
     "size": 110084096,
     "kind": "installer"
    },
