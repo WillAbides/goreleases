@@ -1,5 +1,182 @@
 [
  {
+  "version": "go1.20rc3",
+  "stable": false,
+  "files": [
+   {
+    "filename": "go1.20rc3.windows-arm64.zip",
+    "os": "windows",
+    "arch": "arm64",
+    "version": "go1.20rc3",
+    "sha256": "8bdd3f214e0714bfa80373d777d1342a1a8c33a35c35e4d370656fab9e34d54d",
+    "size": 107846827,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.windows-arm64.msi",
+    "os": "windows",
+    "arch": "arm64",
+    "version": "go1.20rc3",
+    "sha256": "de4cb805a57f2a7d5d4fdd0630163c48d66ecae1aad38b71695b811815691123",
+    "size": 95240192,
+    "kind": "installer"
+   },
+   {
+    "filename": "go1.20rc3.windows-amd64.zip",
+    "os": "windows",
+    "arch": "amd64",
+    "version": "go1.20rc3",
+    "sha256": "f577d77b6c244c476054f60a350a7ff1b0398da307306eb7de7a93598bb3d7e8",
+    "size": 113293090,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.windows-amd64.msi",
+    "os": "windows",
+    "arch": "amd64",
+    "version": "go1.20rc3",
+    "sha256": "e03e8124f50a866039f6d2434a295c54123a1480892ac21a1faf99525bb51aae",
+    "size": 99475456,
+    "kind": "installer"
+   },
+   {
+    "filename": "go1.20rc3.windows-386.zip",
+    "os": "windows",
+    "arch": "386",
+    "version": "go1.20rc3",
+    "sha256": "73277d054190e9f4f3019078a77a2fb7bff4c874adc53551908eb40ca691cb06",
+    "size": 114068994,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.windows-386.msi",
+    "os": "windows",
+    "arch": "386",
+    "version": "go1.20rc3",
+    "sha256": "f1edc37d87c97913f4b7e2e3f57f3a16341856964fb3a080352168f8666f3fac",
+    "size": 99758080,
+    "kind": "installer"
+   },
+   {
+    "filename": "go1.20rc3.src.tar.gz",
+    "os": "",
+    "arch": "",
+    "version": "go1.20rc3",
+    "sha256": "88c4898dea3fbeed4c8bf0976425f2c71dbb11da1d37b5374dd47626328e318b",
+    "size": 26154256,
+    "kind": "source"
+   },
+   {
+    "filename": "go1.20rc3.linux-s390x.tar.gz",
+    "os": "linux",
+    "arch": "s390x",
+    "version": "go1.20rc3",
+    "sha256": "2755e051bf7a06a4e604e88f871fd19512990ec600dfc75c05c4d3ee31007056",
+    "size": 99916557,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.linux-ppc64le.tar.gz",
+    "os": "linux",
+    "arch": "ppc64le",
+    "version": "go1.20rc3",
+    "sha256": "b53d4afdec956fc6f79c82ea6e47f9a5c1fbb62908755c35712b6fef8c7b01df",
+    "size": 95735040,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.linux-armv6l.tar.gz",
+    "os": "linux",
+    "arch": "armv6l",
+    "version": "go1.20rc3",
+    "sha256": "1157b1c44f52d511cbf946686c4412c82ba77ddb311cb147df1b6b707413f124",
+    "size": 97557844,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.linux-arm64.tar.gz",
+    "os": "linux",
+    "arch": "arm64",
+    "version": "go1.20rc3",
+    "sha256": "8cf0b9091e9bc3961e62395b1fc8e647f5359ffee30b980658ea7ca193e08ce5",
+    "size": 95192410,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.linux-amd64.tar.gz",
+    "os": "linux",
+    "arch": "amd64",
+    "version": "go1.20rc3",
+    "sha256": "a53434fa355bcae0cd02796690715b08ebe1c3f33d384d83cf155842fd6856ba",
+    "size": 99842485,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.linux-386.tar.gz",
+    "os": "linux",
+    "arch": "386",
+    "version": "go1.20rc3",
+    "sha256": "4df8e9758ffbd3230d81389a6895426f3a9557157a6f3ccfad0a09b255726b3e",
+    "size": 100281844,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.freebsd-amd64.tar.gz",
+    "os": "freebsd",
+    "arch": "amd64",
+    "version": "go1.20rc3",
+    "sha256": "f70440357ac7b87ab99e677642ef75f825c6c6f76092f4c3503e9753784475bb",
+    "size": 99591874,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.freebsd-386.tar.gz",
+    "os": "freebsd",
+    "arch": "386",
+    "version": "go1.20rc3",
+    "sha256": "07afd11bf44b8a7c73d5fe88145452a2c47641ecc42d54234699e5158205899c",
+    "size": 99926684,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.darwin-arm64.tar.gz",
+    "os": "darwin",
+    "arch": "arm64",
+    "version": "go1.20rc3",
+    "sha256": "62aeba508c8b768c158950046c04761298d556554594c3ac6ffc3509f5dece41",
+    "size": 96039972,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.darwin-arm64.pkg",
+    "os": "darwin",
+    "arch": "arm64",
+    "version": "go1.20rc3",
+    "sha256": "267574d85c085a1b1de1d6d87662a389c5a400aba23f451f77a067bf17d30dab",
+    "size": 96287708,
+    "kind": "installer"
+   },
+   {
+    "filename": "go1.20rc3.darwin-amd64.tar.gz",
+    "os": "darwin",
+    "arch": "amd64",
+    "version": "go1.20rc3",
+    "sha256": "b5b988b538d6b183d0c8a4959e9a83d3bbc91e4fd9d63d6c6df7103dba691ade",
+    "size": 99852260,
+    "kind": "archive"
+   },
+   {
+    "filename": "go1.20rc3.darwin-amd64.pkg",
+    "os": "darwin",
+    "arch": "amd64",
+    "version": "go1.20rc3",
+    "sha256": "bb316b302cb2618ac7635a92e20e4971aa5b88fe1ee4d87adfd6864f7362fcb6",
+    "size": 100372565,
+    "kind": "installer"
+   }
+  ]
+ },
+ {
   "version": "go1.20rc2",
   "stable": false,
   "files": [
