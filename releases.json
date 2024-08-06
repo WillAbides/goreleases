@@ -4254,6 +4254,30 @@
   ]
  },
  {
+  "version": "go1.21.13",
+  "stable": true,
+  "files": [
+   {
+    "filename": "go1.21.13.src.tar.gz",
+    "os": "",
+    "arch": "",
+    "version": "go1.21.13",
+    "sha256": "71fb31606a1de48d129d591e8717a63e0c5565ffba09a24ea9f899a13214c34d",
+    "size": 26997630,
+    "kind": "source"
+   },
+   {
+    "filename": "go1.21.13.dragonfly-amd64.tar.gz",
+    "os": "dragonfly",
+    "arch": "amd64",
+    "version": "go1.21.13",
+    "sha256": "913f5a6a3eef2c964d41c4d6c78c3e68db97aa7a361317d720591076d3c57664",
+    "size": 66417852,
+    "kind": "archive"
+   }
+  ]
+ },
+ {
   "version": "go1.21.12",
   "stable": true,
   "files": [
