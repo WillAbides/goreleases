@@ -6,17 +6,17 @@ on:
 jobs:
   update-releases:
     name: update releases.json
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: script/update-releases
       - name: script/validate-releases
         id: validate
         run: |
           if ./script/validate-releases; then
-            echo "::set-output name=validated::true"
+            echo "validated=true" >> "$GITHUB_OUTPUT"
           else
-            echo "::set-output name=validated::false"
+            echo "validated=false" >> "$GITHUB_OUTPUT"
           fi
       - name: update branch
         if: ${{ steps.validate.outputs.validated == 'true' }}
@@ -27,7 +27,7 @@ jobs:
       - name: Create Pull Request
         if: ${{ steps.validate.outputs.validated == 'false' }}
         id: create-pull-request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: update releases.json
           title: releases.json updates
